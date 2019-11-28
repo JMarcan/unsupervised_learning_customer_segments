@@ -6,11 +6,12 @@ characteristics of people who are buying company products and characteristics of
 The project was completed as part of my Data Science Graduation at [Udacity](https://www.udacity.com/).
 
 I've worked with two datasets. One with demographic information about the people of Germany, and one with the same information for customers of a mail-order sales company.
+
 To get the answers:
-First, I've done data preprocessing
-- Missing values were converted into NaNs. From the dataset were removed columns with missing rate above 50%
+First, I've done data preprocessing:
+- Missing values were converted into NaNs. From the dataset were removed columns with missing rate above 50%.
 - Categorical and mixed variables were encoded.
-Then, I've done feature transformation.
+Then, I've done feature transformation:
 - First, feature scaling. Then I've performed dimensionality reduction with sklean's PCA. 
 Lastly, I've clustered data into segments.
 
@@ -23,7 +24,7 @@ Results:
 ![Customer segments](customer_segments.png)
 ## Usage
 This project uses real-life data provided by Bertelsmann partners AZ Direct and Arvato Finance Solution. 
-Data are confidential. The source code and the findings are public. You can follow executed steps in `Identify_Customer_Segments.ipynb`.
+Data are confidential. The source code and the findings are public. You can follow executed steps in `Identify_Customer_Segments.ipynb`
 
 
 ## Libraries used
@@ -42,4 +43,4 @@ There were four data files associated with this project.
 - `AZDIAS_Feature_Summary.csv`: (confidential) Summary of feature attributes for demographics data; 85 features (rows) x 4 columns
 
 Published repository contains:
-- `Identify_Customer_Segments.ipynb`: contains source code to identify customer segments from the dataset
+- `Identify_Customer_Segments.ipynb`: source code to identify customer segments from the dataset
